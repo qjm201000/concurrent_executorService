@@ -13,7 +13,6 @@ public class ScheduledThreadPoolMain {
 
         // 从现在开始5秒钟之后，每隔10秒钟执行一次job2
         pool.scheduleWithFixedDelay(new ThreadRunner(3,3), 5, 10, TimeUnit.SECONDS);
-//        pool.schedule(new ThreadRunner(2,3),10, TimeUnit.SECONDS);
 
         /**
          * ScheduleAtFixedRate 每次执行时间为上一次任务开始起向后推一个时间间隔，
