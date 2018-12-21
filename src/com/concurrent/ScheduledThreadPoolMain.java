@@ -20,7 +20,7 @@ public class ScheduledThreadPoolMain {
          * ScheduleWithFixedDelay 每次执行时间为上一次任务结束起向后推一个时间间隔，
          *                     即每次执行时间为：initialDelay, initialDelay+executeTime+delay, initialDelay+2*executeTime+2*delay
          *
-         * Rate 是基于固定时间间隔进行任务调度，
+         * ScheduleAtFixedRate 是基于固定时间间隔进行任务调度，
          * ScheduleWithFixedDelay 取决于每次任务执行的时间长短，是基于不固定时间间隔进行任务调度
          */
     }
